@@ -1,0 +1,19 @@
+name: Bug report
+description: Something on Steamle is broken
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page URL (e.g. /day/2026-11-22)
+  - type: input
+    id: env
+    attributes:
+      label: Browser and device

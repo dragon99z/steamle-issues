@@ -1,0 +1,16 @@
+name: Puzzle / review problem
+description: A review is offensive, spoils the answer, or the game name is wrong
+labels: [content]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Puzzle URL or date
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
